@@ -1,0 +1,17 @@
+<%-include("header");-%>
+
+
+
+    <h1>Home</h1>
+    <p><%=homeContent%></p>
+
+<% new_posts.forEach(function(obj){ %>
+    <h1><%=obj.Title%></h1> 
+    <p><%=obj.Post.substring(0,99)+"..."%> 
+        <a href="/posts/<%=obj.Title%>">Read more</a></p>
+<% }) %>
+
+
+<%-include("footer");-%>
+
+
