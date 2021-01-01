@@ -60,12 +60,6 @@ app.get('/posts/:postName', function (req, res) {
 
 
 
-
-
-
-
-
-
 app.post("/compose",function(req,res){
 
   var title=req.body.title;
