@@ -1,1 +1,1 @@
-# Blog-Website ---- Please check the master brunch
+# Blog-Website ---- Please check the master branch
