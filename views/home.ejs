@@ -6,9 +6,9 @@
     <p><%=homeContent%></p>
 
 <% new_posts.forEach(function(obj){ %>
-    <h1><%=obj.Title%></h1> 
-    <p><%=obj.Post.substring(0,99)+"..."%> 
-        <a href="/posts/<%=obj.Title%>">Read more</a></p>
+    <h1><%=obj.title%></h1> 
+    <p><%=obj.content.substring(0,99)+"..."%> 
+        <a href="/posts/<%=obj._id%>">Read more</a></p>
 <% }) %>
 
 
